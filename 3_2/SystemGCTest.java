@@ -13,7 +13,7 @@ public class SystemGCTest {
         long startTime = System.nanoTime(); //System.nanoTime() : long 타입으로 나노세컨드(1/1000000000) 단위로 반환함 / System.currentTimeMillis() : 밀리세컨드(1/1000초) 단위로 반환함
         long endTime = System.nanoTime();
 
-        System.out.println(endTime - startTime + "ns"); // 결과값 : 내 pc기준으로 200ns로 나온다.
+        System.out.println(endTime - startTime + "ns");
     }
 
     static void systemGc() {
