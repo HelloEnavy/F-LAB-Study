@@ -8,7 +8,7 @@ public class ThreadSynchronized2 extends Thread {
     private List<Character> names;
     private String message;
     // shared lock
-    private static Lock lock = new ReentrantLock();
+    private static Lock lock = new ReentrantLock(); //lock 메서드를 사용하기 위해 객체 생성
 
     public ThreadSynchronized2(List<Character> names, String message) {
         this.names = names;
@@ -17,7 +17,7 @@ public class ThreadSynchronized2 extends Thread {
 
     @Override
     public void run() {
-        lock.lock();
+        lock.lock(); //lock() 메서드를 작업이 수행되기전 넣어서 알림.
         try {
             for (int i = 0; i < message.length(); i++) {
                 try {
@@ -30,7 +30,7 @@ public class ThreadSynchronized2 extends Thread {
             }
             System.out.println(names);
         }finally {
-            lock.unlock();
+            lock.unlock(); //작업이 끝나면 unlock() 메서드를 호출하여 작업이 끝남을 알림.
         }
     }
 }

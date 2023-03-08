@@ -13,7 +13,7 @@ public class ThreadSynchronized1 extends Thread{
 
     @Override
     public void run() {
-       synchronized (names){
+       synchronized (names){ //synchronized에 수행되는 메서드를 넣었다.
            for(int i=0; i<message.length(); i++){
                try {
                    // HELLO -> H, E, L, L, O
