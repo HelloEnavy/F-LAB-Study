@@ -10,6 +10,7 @@ public class UnsynchronizedMethod {
         thread2.start();
 
         //결과값
+        //결과값들이 뒤죽박죽이다.
         // 0
         // 0
         // 2
