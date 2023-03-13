@@ -5,11 +5,18 @@ public interface InterfaceTest {
     //상태
     int a = 1;
     static int b = 2;
-    //오잉? public도 된다.
-    public int c = 3;  
-
-    //초기화는 무조건 인터페이스 내에서 해주어야한다.
+    public int c = 3;
+    public static final int d = 4;
+    
+    //private int c = 3;  
+    //인터페이스 변수 앞에 private 제어자를 넣으면 에러가 뜨며 다음과 같은 문구가 뜬다.
+    //Illegal modifier for the interface field InterfaceTest.c; only public, static & final are permittedJava(33554775)
+    //즉 인터페이스 변수는 public, static, final 이여야 한다.
+    
     //static int d; //에러 발생!!
+    //초기화는 무조건 인터페이스 내에서 해주어야한다.
+
+
 
     //행위
     //인터페이스는 구현되지 않은, 껍데기만 있는 행위를 갖고 있다.
