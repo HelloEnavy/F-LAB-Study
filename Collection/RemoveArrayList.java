@@ -16,6 +16,6 @@ public class RemoveArrayList {
         //요소 하나를 삭제
         list.remove("3");
 
-        System.out.println(list.size());
+        System.out.println(list.size()); //size = 9
     }
 }
