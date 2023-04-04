@@ -1,6 +1,8 @@
 package Stream;
 
-public class Product {
+import java.io.Serializable;
+
+public class Product implements Serializable { //직렬화 구현을 위해 Serializble 인터페이스 상속
 	
 	public int num;
 	public String name;
