@@ -1,4 +1,4 @@
-package Stream;
+package Lambda;
 
 import java.io.Serializable;
 
@@ -23,9 +23,7 @@ public class Product implements Serializable { //직렬화 구현을 위해 Seri
 		return price;
 	}
 
-	public int getNumber() {
-		return num;
-	}
+	public void getNumber() {}
 	
 }
 
