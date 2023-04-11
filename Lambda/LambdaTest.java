@@ -24,7 +24,6 @@ public class LambdaTest {
 	};
 
 	// Product p = new Product("milk", 500f);
-
 	// int price = () -> p.getPrice();
 	
 
