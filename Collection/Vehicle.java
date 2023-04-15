@@ -7,7 +7,7 @@ public interface Vehicle {
         System.out.println("Default doSomething Method " + n);
     }
 
-    //일반 추상 메서드 구현
+    //일반 추상 메서드 구현.
     public void doSomething1();
 
 }
