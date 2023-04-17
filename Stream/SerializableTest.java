@@ -32,7 +32,7 @@ public class SerializableTest {
 		}
 		
 		//결과값
-		//fout.txt 파일에 Product 객체에 대한 정보가 추가되었음.
+		//fout.txt 파일에 Product 객체에 대한 정보가 추가되었음
 		
 		
 	}
