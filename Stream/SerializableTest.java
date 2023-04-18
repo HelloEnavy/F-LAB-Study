@@ -9,7 +9,7 @@ public class SerializableTest {
 		
 		try {
 			
-			//Serializble 인터페이스를 구현하는 Product 객체.
+			//Serializble 인터페이스를 구현하는 Product 객체
 			Product product = new Product("Phone", 28000f);
 			
 			//Txt 포맷으로 객체를 변환함
