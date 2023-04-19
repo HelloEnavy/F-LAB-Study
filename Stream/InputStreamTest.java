@@ -32,6 +32,6 @@ public class InputStreamTest {
 
     //결과값
     //This is InputStreamTextFile!
-    //text 파일에 적혀있는 문구가 출력되었다.
+    //text 파일에 적혀있는 문구가 출력되었다
 }
 
