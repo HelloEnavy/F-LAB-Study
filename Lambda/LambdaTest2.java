@@ -17,7 +17,7 @@ public class LambdaTest2{
 
 		System.out.println(lt2.mi1.number());
 
-		//결과값.
+		//결과값
 		//1
 	}
 
